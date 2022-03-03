@@ -15,6 +15,7 @@ public class ping {
     }
 
     static void commands(ArrayList<String> commandList ) throws Exception{
+        //used
         ProcessBuilder build = new ProcessBuilder(commandList);
         Process process=build.start();
 
